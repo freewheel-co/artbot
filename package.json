@@ -1,0 +1,19 @@
+{
+  "name": "Linuxagram",
+  "version": "0.0.0",
+  "description": "Linuxagram server",
+  "main": "app.js",
+  "dependencies": {
+    "chrome-remote-interface": "^0.23.1",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "node-twitter": "^0.5.3",
+    "tumblrwks": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Marshall",
+  "license": "ISC"
+}
