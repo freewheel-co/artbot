@@ -51,7 +51,7 @@ var build = function(err, stdout, stderr) {
     });
 };
 
-if (node) {
+if (chrome) {
     exec('node chromeDriver.js', build);
 } else {
     exec('phantomjs phantomDriver.js', build);
